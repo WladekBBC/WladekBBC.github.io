@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body
-        {
-            background-image:url("./background.jpg");
-        }
-    </style>
     <link rel="stylesheet" href="settt.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </head>
 <body>
-    <img src="./background.jpg" alt="kitty verry preatty">
-
+    <style>body {
+        background-image: url("./background.jpg");
+        background-size: cover;
+        background-position: center;  
+        background-repeat: no-repeat;  
+        height: 100vh; 
+        margin: 0; 
+        padding: 0; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white; /* Kolor tekstu, żeby był czytelny */
+    }
+    </style>
     <h1>Luv me?❤️</h1>
     <div class="board">
         <button id="yes", class="btn", onclick="alert('Verry good choize\! ❤️')"> 
