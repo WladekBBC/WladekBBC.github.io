@@ -12,10 +12,6 @@ no.addEventListener('mouseenter', () => {
     no.style.top = `${random(100,200)}%`;
 })
 
-no.addEventListener('click', function(){
-    survey.textContent = 'Shtop tryin';
-})
-
 yes.addEventListener('click', function(){
     survey.textContent = 'Verry good choice)))';
 })
