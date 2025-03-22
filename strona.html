@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="slideshow.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+            background-color: #ecf0f1; /* Light background for contrast */
+        }
+        .hero {
+            padding: 50px;
+            background: #f3f3f3;
+            margin: 10px 0;
+            border-radius: 10px;
+            position: relative; /* For positioning child elements */
+            overflow: hidden; /* To contain floated children */
+        }
+        .hero__title {
+            font-size: 24px;
+            color: white; /* Change text color to white */
+            margin: 0; /* Remove default margin */
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+            text-align: left;
+        }
+        .content__title {
+            font-size: 30px;
+            color: #2c3e50;
+        }
+        .content__author {
+            font-size: 18px;
+            color: #7f8c8d;
+        }
+        blockquote {
+            font-style: italic;
+            color: #e67e22;
+            padding: 10px;
+            border-left: 5px solid #e67e22;
+            margin-left: 20px;
+        }
+        /* Add background images for each hero section */
+        .hero:nth-child(1) {
+            background-image: url('./background1.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+        .hero:nth-child(2) {
+            background-image: url('./background3.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+        .hero:nth-child(3) {
+            background-image: url('./background5.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+        .hero:nth-child(4) {
+            background-image: url('./background2.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-inner" id="section-0">
+            <h2 class="hero__title">You love me?</h2>
+        </div>
+    </section>
+
+    <section class="hero">
+        <div class="hero-inner" id="section-1">
+            <h2 class="hero__title">I love you more</h2>
+        </div>
+    </section>
+
+    <section class="hero">
+        <div class="hero-inner" id="section-2">
+            <h2 class="hero__title">Thank you for 3 years being together</h2>
+        </div>
+    </section>
+
+    <section class="hero">
+        <div class="hero-inner" id="section-3">
+            <h2 class="hero__title">Go to make our lore</h2>
+        </div>
+    </section>
+
+</body>
+</html>
